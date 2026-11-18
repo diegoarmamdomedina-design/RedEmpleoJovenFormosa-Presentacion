@@ -122,12 +122,12 @@ nav a:hover, nav a:focus { background: var(--suave); }
 }
 
 .bloque { padding: 2.5rem 0; }
-.grilla, .preguntas, .comparar, .pasos {
+.grilla, .preguntas, .oferta, .pasos, .tres {
   display: grid;
   gap: 1rem;
 }
 .grilla { grid-template-columns: 1fr 1fr; }
-.tarjeta, .pregunta, .comparar article, .rol {
+.tarjeta, .pregunta, .oferta article, .rol, .diferencial {
   background: white;
   border: 1px solid var(--linea);
   border-radius: 18px;
@@ -182,9 +182,20 @@ li + li { margin-top: 0.25rem; }
 .controles { display: flex; gap: 0.5rem; margin-top: 0.8rem; }
 .paso-btn { background: var(--suave); color: var(--verde-oscuro); }
 
-.preguntas { grid-template-columns: 1fr 1fr; }
-.comparar { grid-template-columns: repeat(3, 1fr); }
-.etiqueta { font-size: 0.8rem; font-weight: 700; color: var(--azul); text-transform: uppercase; }
+.preguntas, .oferta { grid-template-columns: 1fr 1fr; }
+.cita { font-size: 1.25rem; font-weight: 700; color: var(--verde-oscuro); }
+.beneficio {
+  background: var(--suave);
+  border-radius: 12px;
+  padding: 0.75rem 0.85rem;
+  font-weight: 600;
+}
+.frase-corta { font-weight: 700; color: var(--verde-oscuro); }
+.tres { grid-template-columns: repeat(3, 1fr); margin: 1rem 0; }
+.tres article { background: var(--fondo); border-radius: 14px; padding: 0.9rem 1rem; }
+.tres p:last-child, .oferta .frase-corta, .diferencial .cita:last-child { margin-bottom: 0; }
+.etiqueta { font-size: 0.85rem; font-weight: 700; color: var(--azul); text-transform: uppercase; }
+.rol-cabeza .etiqueta { margin: 0; }
 
 footer {
   background: var(--verde-oscuro);
@@ -210,6 +221,6 @@ footer a { color: white; }
   }
   nav.abierto { display: flex; }
   nav a { padding: 0.9rem 1rem; }
-  .hero, .grilla, .preguntas, .comparar, .pasos, .recorrido, .capturas { grid-template-columns: 1fr; }
+  .hero, .grilla, .preguntas, .oferta, .tres, .pasos, .recorrido, .capturas { grid-template-columns: 1fr; }
   .barra { position: sticky; }
 }
