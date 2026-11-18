@@ -113,23 +113,21 @@ nav a:hover, nav a:focus { background: var(--suave); }
 }
 .btn { background: var(--verde); color: white; }
 .btn:hover, .btn:focus { background: var(--verde-oscuro); }
-.telefono {
-  margin: 0;
-  background: white;
-  border-radius: 28px;
-  padding: 0.7rem;
-  box-shadow: var(--sombra);
-  border: 1px solid var(--linea);
+.portada { margin: 0; }
+.portada img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  object-fit: contain;
 }
-.telefono img { border-radius: 20px; }
 
 .bloque { padding: 2.5rem 0; }
-.grilla, .preguntas, .comparar, .pasos, .costos {
+.grilla, .preguntas, .comparar, .pasos {
   display: grid;
   gap: 1rem;
 }
 .grilla { grid-template-columns: 1fr 1fr; }
-.tarjeta, .pregunta, .comparar article, .rol, .costos, .aviso {
+.tarjeta, .pregunta, .comparar article, .rol {
   background: white;
   border: 1px solid var(--linea);
   border-radius: 18px;
@@ -183,15 +181,10 @@ li + li { margin-top: 0.25rem; }
 .recorrido { display: grid; grid-template-columns: 280px 1fr; gap: 1rem; align-items: start; }
 .controles { display: flex; gap: 0.5rem; margin-top: 0.8rem; }
 .paso-btn { background: var(--suave); color: var(--verde-oscuro); }
-.guion { white-space: pre-wrap; }
 
 .preguntas { grid-template-columns: 1fr 1fr; }
 .comparar { grid-template-columns: repeat(3, 1fr); }
 .etiqueta { font-size: 0.8rem; font-weight: 700; color: var(--azul); text-transform: uppercase; }
-table { width: 100%; border-collapse: collapse; }
-th, td { text-align: left; padding: 0.7rem; border-bottom: 1px solid var(--linea); vertical-align: top; }
-th { color: var(--verde-oscuro); }
-.aviso { background: #fff8e8; }
 
 footer {
   background: var(--verde-oscuro);

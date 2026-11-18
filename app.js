@@ -47,7 +47,7 @@ const pasos = [
   {
     foto: "img/logo.png",
     alt: "Logo de Red de Empleo Joven Formosa.",
-    texto: "La institución revisa el trabajo en la web y el administrador ordena cuentas y permisos. Esas pantallas existen. Acá no se muestran correos ni claves. No hay un video todavía: el guion está debajo."
+    texto: "La institución revisa el trabajo en la web y el administrador ordena cuentas y permisos. Esas pantallas existen. Acá no se muestran correos ni claves."
   }
 ];
 
@@ -70,11 +70,3 @@ document.querySelector("#siguiente").addEventListener("click", () => {
   mostrarPaso();
 });
 mostrarPaso();
-
-document.querySelector("#guion").textContent =
-  "En Formosa, muchos egresados técnicos terminan de estudiar y todavía no tienen un empleo formal. El título dice qué carrera cursaron. No siempre muestra qué saben hacer.\n\n" +
-  "Red de Empleo Joven Formosa reúne a cuatro personas. El egresado arma su perfil, pide ayuda a Gemini para redactar el CV y muestra un proyecto. Gemini no certifica nada.\n\n" +
-  "La institución recibe ese trabajo, mira la evidencia y registra si lo revisó. Instituto Superior Fermosa ya avaló un proyecto real de gestión de stock.\n\n" +
-  "El empleador publica una oferta, busca por especialidad y escribe al candidato. Lionel Gallardo publicó un puesto de programador junior y Mateo Palacio se postuló. La conversación quedó guardada.\n\n" +
-  "El administrador ordena cuentas y permisos. Nadie entra en el lugar de otro.\n\n" +
-  "La plataforma no promete un contrato. Busca que el primer contacto se apoye en capacidades visibles, en la provincia y con un costo bajo para empezar.";
