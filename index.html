@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Red de Empleo Joven Formosa</title>
+  <meta name="description" content="Presentación de Red de Empleo Joven Formosa: conecta egresados técnicos, instituciones y empleadores. No garantiza un empleo.">
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="barra">
+    <a class="marca" href="#inicio">
+      <img src="img/logo.png" alt="Logo de manos entrelazadas">
+      <span>Red de Empleo Joven Formosa</span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav id="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#plataforma">La plataforma</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#viabilidad">Viabilidad</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div>
+        <p class="eyebrow">Provincia de Formosa</p>
+        <h1>Red de Empleo Joven Formosa</h1>
+        <p class="lema">Talento formativo, oportunidades reales.</p>
+        <p class="frase">Tu título demuestra lo que estudiaste. Tus capacidades demuestran lo que podés hacer.</p>
+        <p>Una plataforma que conecta egresados técnicos, instituciones educativas y empleadores de Formosa.</p>
+        <a class="btn" href="#como-funciona">Conocer la plataforma</a>
+      </div>
+      <figure class="telefono">
+        <img src="img/empleador-candidatos.png" alt="Captura real de la aplicación: un empleador ve a Mateo Palacio y a Maxi Lopez en Candidatos.">
+        <figcaption>Pantalla real de la aplicación Android. No es un diseño inventado.</figcaption>
+      </figure>
+    </section>
+
+    <section class="bloque" id="plataforma">
+      <h2>El problema y la solución</h2>
+      <div class="grilla">
+        <article class="tarjeta">
+          <h3>Qué pasa hoy</h3>
+          <p>Muchos jóvenes terminan sus estudios técnicos y les cuesta mostrar lo que saben cuando buscan su primer empleo.</p>
+          <p>Las empresas necesitan conocer qué sabe hacer una persona antes de contratarla.</p>
+          <p>Las instituciones educativas pueden respaldar los proyectos hechos durante la formación. Muchas veces ese trabajo queda solo en el aula.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Nuestra solución</h3>
+          <p>Red de Empleo Joven Formosa conecta esos tres intereses. Ya permite:</p>
+          <ul>
+            <li>Presentar un CV con ayuda de Gemini.</li>
+            <li>Mostrar proyectos y capacidades.</li>
+            <li>Pedir a la institución que revise un trabajo académico.</li>
+            <li>Consultar ofertas y postularse.</li>
+            <li>Escribirse entre egresado y empleador.</li>
+          </ul>
+          <p>La plataforma no garantiza una contratación.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="bloque" id="como-funciona">
+      <h2>Cómo funciona</h2>
+      <p>Hay cuatro tipos de cuenta. Elegí una para ver su problema, su beneficio y los botones que existen de verdad.</p>
+      <div class="roles" role="tablist">
+        <button class="tab" type="button" role="tab" id="tab-egresado" aria-selected="true" aria-controls="panel-egresado">Egresado</button>
+        <button class="tab" type="button" role="tab" id="tab-empleador" aria-selected="false" aria-controls="panel-empleador">Empleador</button>
+        <button class="tab" type="button" role="tab" id="tab-institucion" aria-selected="false" aria-controls="panel-institucion">Institución</button>
+        <button class="tab" type="button" role="tab" id="tab-admin" aria-selected="false" aria-controls="panel-admin">Administrador</button>
+      </div>
+
+      <article class="rol" id="panel-egresado" role="tabpanel" aria-labelledby="tab-egresado">
+        <div class="rol-cabeza"><span class="icono" aria-hidden="true">1</span><div><p class="etiqueta">App Android</p><h3>Mostrá lo que sabés hacer, aunque todavía no tengas experiencia laboral.</h3></div></div>
+        <p><strong>Problema.</strong> Terminaste tus estudios, pero el CV no alcanza para demostrar tus capacidades.</p>
+        <p><strong>Qué podés hacer.</strong> En la pestaña Empleos están «Preparar mi perfil», «Buscar empleos», «Mis postulaciones» y «Ver empleo». En Mi perfil están «Crear mi CV con IA», «Mejorar mi CV con IA», «Ver PDF», «Descargar», «Agregar trabajo o proyecto», «Editar mis conocimientos» y «Ver y editar» los estudios. Mensajes abre las conversaciones.</p>
+        <p>Gemini ayuda a redactar. No certifica los estudios ni decide una contratación. La institución es quien puede revisar un proyecto.</p>
+      </article>
+
+      <article class="rol" id="panel-empleador" role="tabpanel" aria-labelledby="tab-empleador" hidden>
+        <div class="rol-cabeza"><span class="icono" aria-hidden="true">2</span><div><p class="etiqueta">App Android</p><h3>Encontrá talento técnico local con capacidades visibles.</h3></div></div>
+        <p><strong>Problema.</strong> Hace falta contratar, y un currículum no siempre muestra los conocimientos prácticos.</p>
+        <p><strong>Recorrido real.</strong> Lionel Gallardo, empleador, publicó «Programador junior C#». Mateo Palacio se postuló. Los dos ya tienen una conversación. No se muestran correos ni teléfonos.</p>
+        <div class="capturas">
+          <figure>
+            <img src="img/empleador-candidatos.png" alt="Candidatos, con búsqueda por especialidad y localidad, y los botones Ver capacidades y Contactar.">
+            <figcaption>Candidatos. «Buscar» filtra. «Ver capacidades» abre lo compartido. «Contactar» abre la conversación.</figcaption>
+          </figure>
+          <figure>
+            <img src="img/empleador-ofertas.png" alt="Mis ofertas muestra Programador junior C# y la postulación de Mateo Palacio.">
+            <figcaption>Mis ofertas. «Publicar oferta» crea un aviso. En la postulación se puede ver capacidades o el currículum.</figcaption>
+          </figure>
+          <figure>
+            <img src="img/empleador-mensajes.png" alt="Mensajes muestra la conversación existente con Mateo Palacio.">
+            <figcaption>Mensajes. La conversación con Mateo queda guardada.</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="rol" id="panel-institucion" role="tabpanel" aria-labelledby="tab-institucion" hidden>
+        <div class="rol-cabeza"><span class="icono" aria-hidden="true">3</span><div><p class="etiqueta">Sitio web</p><h3>Dale visibilidad al trabajo realizado por tus egresados.</h3></div></div>
+        <p><strong>Problema.</strong> Un proyecto académico puede quedar en el aula y no llegar a las empresas.</p>
+        <p><strong>Qué hace la institución.</strong> Entra a «Mi institución», mira «Trabajos por revisar», abre la evidencia y registra el resultado. Lo revisado queda en «Trabajos revisados».</p>
+        <p>Instituto Superior Fermosa ya revisó el proyecto «Sistema de Gestión de Stock para Comercios», de Mateo Palacio. El resultado visible es «Avalado». Los nombres de docentes que aparecen en un catálogo de prueba no son revisores reales: no firman avales.</p>
+      </article>
+
+      <article class="rol" id="panel-admin" role="tabpanel" aria-labelledby="tab-admin" hidden>
+        <div class="rol-cabeza"><span class="icono" aria-hidden="true">4</span><div><p class="etiqueta">Sitio web</p><h3>Una plataforma organizada, con usuarios y permisos definidos.</h3></div></div>
+        <p>El administrador gestiona cuentas, administra instituciones, controla qué institución puede validar trabajos y consulta los reportes que existan.</p>
+        <p>Cada actor entra a lo suyo. Un empleador no administra instituciones. Una institución no ve el panel de administración. Esta presentación no muestra listas con correos ni claves.</p>
+        <p>No hay estadísticas inventadas. Si un reporte no tiene datos, la pantalla lo dice.</p>
+      </article>
+
+      <h3>El recorrido, en cinco pasos</h3>
+      <div class="pasos">
+        <article><p class="numero">1</p><p>El egresado crea su perfil y presenta sus capacidades.</p></article>
+        <article><p class="numero">2</p><p>La institución puede revisar sus proyectos.</p></article>
+        <article><p class="numero">3</p><p>El empleador publica una oportunidad.</p></article>
+        <article><p class="numero">4</p><p>El egresado se postula.</p></article>
+        <article><p class="numero">5</p><p>Los dos pueden escribirse.</p></article>
+      </div>
+
+      <h3>Conocé Red de Empleo Joven Formosa</h3>
+      <p>Todavía no hay un video publicado. Este recorrido usa capturas reales de la aplicación. Cuando el video exista, se va a ver en esta misma página: no hace falta cambiar el QR.</p>
+      <div class="recorrido">
+        <figure>
+          <img id="foto-recorrido" src="img/empleador-candidatos.png" alt="Paso del recorrido: búsqueda de candidatos.">
+        </figure>
+        <div>
+          <p id="texto-recorrido"></p>
+          <div class="controles">
+            <button class="paso-btn" type="button" id="anterior">Anterior</button>
+            <button class="paso-btn" type="button" id="siguiente">Siguiente</button>
+          </div>
+        </div>
+      </div>
+      <h3>Guion para grabar el video</h3>
+      <p class="guion" id="guion"></p>
+
+      <h3>Cómo está armada, en palabras simples</h3>
+      <div class="diagrama" aria-label="La aplicación y la web se conectan con la API, y la API con la base de datos. Gemini ayuda con el CV.">
+        <span class="nodo">App Android y web</span>
+        <span class="flecha" aria-hidden="true">→</span>
+        <span class="nodo">API</span>
+        <span class="flecha" aria-hidden="true">→</span>
+        <span class="nodo">Base de datos</span>
+        <span class="nodo gemini">Gemini, solo para ayudar con el CV</span>
+      </div>
+      <ul>
+        <li><strong>C# y .NET MAUI</strong> permiten construir la aplicación Android.</li>
+        <li><strong>ASP.NET Core</strong> conecta las partes del sistema.</li>
+        <li><strong>Razor Pages</strong> construye las pantallas web.</li>
+        <li><strong>SQL Server</strong> guarda la información.</li>
+        <li><strong>Gemini</strong> ayuda a redactar y mejorar el currículum.</li>
+        <li><strong>GitHub</strong> guarda el código. GitHub Pages publica solo esta presentación: no ejecuta la API ni la base de datos.</li>
+      </ul>
+    </section>
+
+    <section class="bloque" id="beneficios">
+      <h2>Qué gana cada persona</h2>
+      <div class="preguntas">
+        <article class="pregunta">
+          <p class="etiqueta">1. ¿Qué es?</p>
+          <h3>Una plataforma para conectar capacidades técnicas con oportunidades locales.</h3>
+          <p>El egresado puede mostrar más que su currículum.</p>
+        </article>
+        <article class="pregunta">
+          <p class="etiqueta">2. ¿Por qué existe?</p>
+          <h3>El primer empleo suele pedir experiencia que el joven todavía no tiene.</h3>
+          <p>Sirve para presentar trabajos, estudios y capacidades concretas.</p>
+        </article>
+        <article class="pregunta">
+          <p class="etiqueta">3. ¿Para qué sirve?</p>
+          <h3>Para que cada actor haga su parte.</h3>
+          <p>El egresado gana visibilidad. La empresa encuentra candidatos. La institución respalda proyectos. El administrador mantiene el orden. El resultado buscado es una mejor conexión entre educación técnica y empleo, no un puesto asegurado.</p>
+        </article>
+        <article class="pregunta">
+          <p class="etiqueta">4. ¿Cómo funciona?</p>
+          <h3>Perfil, revisión, oferta, postulación y mensaje.</h3>
+          <p>Esos son los cinco pasos. No hay un paso oculto ni un ranking.</p>
+        </article>
+      </div>
+
+      <h3>No buscamos ser otro portal de currículums</h3>
+      <div class="comparar">
+        <article>
+          <h3>LinkedIn</h3>
+          <p>Ya ofrece perfiles profesionales y búsqueda de empleo en una red amplia. No está armado para que una institución de Formosa revise un trabajo de cátedra dentro del mismo recorrido local.</p>
+        </article>
+        <article>
+          <h3>Computrabajo</h3>
+          <p>Ya publica avisos y recibe postulaciones. El centro es el aviso y el CV. Acá también importa el proyecto académico y si la institución lo revisó.</p>
+        </article>
+        <article>
+          <h3>Oficios Formosa</h3>
+          <p>Ya acerca ofertas de la provincia. Red de Empleo Joven Formosa suma, en la misma cuenta, la formación técnica, el proyecto y la revisión institucional.</p>
+        </article>
+      </div>
+      <p>La diferencia no es decir que las otras plataformas no tienen herramientas. La diferencia es reunir formación técnica, proyectos académicos, revisión institucional y búsqueda de empleo local en un mismo recorrido.</p>
+    </section>
+
+    <section class="bloque" id="viabilidad">
+      <h2>Cuánto cuesta y si es viable</h2>
+      <p>No hay un presupuesto aprobado ni una inversión ya realizada. Los números de abajo son precios públicos consultados el 18 de noviembre de 2026. No son una factura.</p>
+      <article class="costos">
+        <h3>Para quien usa la plataforma</h3>
+        <p>La propuesta es que egresados, empleadores e instituciones entren sin pagar. Eso es una decisión del proyecto, no un convenio firmado con un patrocinador.</p>
+        <h3>Para sostener el proyecto</h3>
+        <table>
+          <thead>
+            <tr><th>Qué</th><th>Hoy, comprobado</th><th>Si crece</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Esta presentación</td>
+              <td>GitHub Pages, sin costo, en un repositorio público.</td>
+              <td>Sigue sin costo mientras el repositorio sea público. <a href="https://docs.github.com/en/get-started/learning-about-github/githubs-plans">Fuente</a></td>
+            </tr>
+            <tr>
+              <td>La aplicación y la API</td>
+              <td>Funcionan en la computadora de desarrollo. No están publicadas en esta página.</td>
+              <td>Un alojamiento en la nube se cotiza en la calculadora de Microsoft. El plan Basic existe para poco tráfico; el importe depende de la región y del acuerdo. <a href="https://azure.microsoft.com/en-us/pricing/details/app-service/linux/">Fuente</a></td>
+            </tr>
+            <tr>
+              <td>Base de datos</td>
+              <td>SQL Server del piloto, en la computadora de desarrollo.</td>
+              <td>Una base administrada en internet tiene costo aparte. No hay una cotización tomada.</td>
+            </tr>
+            <tr>
+              <td>Archivos, como el CV</td>
+              <td>Guardados en el servidor de desarrollo.</td>
+              <td>El almacenamiento en la nube se cobra por el espacio usado. No hay una factura.</td>
+            </tr>
+            <tr>
+              <td>Gemini</td>
+              <td>El modelo usado es gemini-3.5-flash-lite. El nivel gratuito de Google no cobra, y Google puede usar esos datos para mejorar sus productos.</td>
+              <td>Si se pasa al nivel pago: 0,30 USD por millón de tokens de entrada y 2,50 USD por millón de tokens de salida. <a href="https://ai.google.dev/gemini-api/docs/pricing">Fuente</a></td>
+            </tr>
+            <tr>
+              <td>Dominio propio</td>
+              <td>No hay dominio comprado. El QR viejo del folleto abre example.com, que no es del proyecto.</td>
+              <td>Un .com.ar cuesta 8.500 pesos por año para el alta y la renovación. <a href="https://punto.gov.ar/es/dominios/dominios_y_aranceles">NIC Argentina</a></td>
+            </tr>
+            <tr>
+              <td>Mantenimiento y seguridad</td>
+              <td>Lo atiende el equipo del proyecto, sin un contrato de soporte pago.</td>
+              <td>Hay que reservar tiempo para copias, accesos y actualizaciones. No está presupuestado en pesos.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Inversión mínima para mostrar el proyecto:</strong> 0 pesos. Esta página ya está publicada. <strong>Gasto mensual obligatorio hoy:</strong> ninguno. El único precio cerrado en pesos es el dominio, y solo si se decide comprarlo: 8.500 pesos por año.</p>
+      </article>
+      <div class="grilla">
+        <article class="tarjeta">
+          <h3>Viabilidad</h3>
+          <p>Puede empezar como un piloto de bajo costo, medir si egresados, instituciones y comercios lo usan, y crecer después. No hace falta prometer una red nacional para que el primer recorrido tenga sentido.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Retorno</h3>
+          <p><strong>Social, esperado:</strong> más visibilidad, más contactos, mejor vínculo con las instituciones y un acceso simple para comercios y PyMEs.</p>
+          <p><strong>Económico:</strong> no se prometen ganancias. Como el uso sería gratuito, el sostenimiento puede venir de un patrocinio o de apoyo institucional. Eso es una posibilidad, no un acuerdo existente.</p>
+        </article>
+      </div>
+      <p class="aviso">El QR impreso en el folleto no se puede redirigir: apunta a example.com. El código nuevo reemplaza solo ese cuadrado y abre esta página. El resto del folleto no cambia.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="pie">
+      <p><strong>Instituto Superior Fermosa</strong></p>
+      <p>Carrera: Desarrollador de Software.</p>
+      <p>Año: 2026.</p>
+      <p>Materias: Práctica Profesionalizantes II y Calidad de Software.</p>
+      <p>Profesores: Magíster Marcos Monti y Cristian Morel.</p>
+      <p>Alumnos: Diego Medina y Mateo Palacios.</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
